@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AODV.c" />
+    <ClCompile Include="AODV_CheckRouteFound.c" />
+    <ClCompile Include="AODV_RouteError.c" />
+    <ClCompile Include="FIFOBuffer.c" />
+    <ClCompile Include="GeneralPacketProcessing.c" />
+    <ClCompile Include="HelloMessage.c" />
+    <ClCompile Include="RouteMaint.c" />
+    <ClCompile Include="RouteTable.c" />
+    <ClCompile Include="RREP.c" />
+    <ClCompile Include="RREQ.c" />
+    <ClCompile Include="RSA.c" />
+    <ClCompile Include="Secure_AODV.c" />
+    <ClCompile Include="Malicious.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AODV.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\AppData\Local\Temp\NetSim\Configuration.xml" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,62 @@
+﻿Build started 15-03-2017 15:40:04.
+     1>Project "C:\Users\KANAK\Desktop\Secure_AODV\Simulation\AODV\AODV.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\AODV.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+       InitializeBuildStatus:
+         Creating "Debug\AODV.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D AODV_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt AODV.c AODV_CheckRouteFound.c AODV_RouteError.c FIFOBuffer.c GeneralPacketProcessing.c HelloMessage.c Malicious.c RouteMaint.c RouteTable.c RREP.c RREQ.c Secure_AODV.c RSA.c
+         RSA.c
+         Secure_AODV.c
+     1>c:\users\kanak\desktop\secure_aodv\simulation\aodv\secure_aodv.c(71): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\kanak\desktop\secure_aodv\simulation\aodv\secure_aodv.c(78): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\kanak\desktop\secure_aodv\simulation\aodv\secure_aodv.c(85): warning C4018: '<' : signed/unsigned mismatch
+         RREQ.c
+         RREP.c
+         RouteTable.c
+         RouteMaint.c
+         Malicious.c
+         HelloMessage.c
+         GeneralPacketProcessing.c
+         FIFOBuffer.c
+         AODV_RouteError.c
+         AODV_CheckRouteFound.c
+         AODV.c
+     1>c:\users\kanak\desktop\secure_aodv\simulation\aodv\aodv.c(230): warning C4090: 'function' : different 'const' qualifiers
+     1>c:\users\kanak\desktop\secure_aodv\simulation\aodv\aodv.c(230): warning C4090: 'function' : different 'const' qualifiers
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Dll\libAODV.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\libAODV.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\KANAK\Desktop\Secure_AODV\Simulation\Dll\libAODV.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Dll\libAODV.lib" /MACHINE:X86 /DLL Debug\AODV.obj
+         Debug\AODV_CheckRouteFound.obj
+         Debug\AODV_RouteError.obj
+         Debug\FIFOBuffer.obj
+         Debug\GeneralPacketProcessing.obj
+         Debug\HelloMessage.obj
+         Debug\Malicious.obj
+         Debug\RouteMaint.obj
+         Debug\RouteTable.obj
+         Debug\RREP.obj
+         Debug\RREQ.obj
+         Debug\Secure_AODV.obj
+         Debug\RSA.obj AODV.lib NetworkStack.lib Metrics.lib 
+     1>AODV.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         AODV.lib(AODVlib.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>AODV.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+            Creating library ..\Dll\libAODV.lib and object ..\Dll\libAODV.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>AODV.lib(AODVlib.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'AODV.lib(AODVlib.obj)' or at 'C:\Users\KANAK\Desktop\Secure_AODV\Simulation\Dll\vc100.pdb'; linking object as if no debug info
+     1>list.lib(List.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'list.lib(List.obj)' or at 'C:\Users\KANAK\Desktop\Secure_AODV\Simulation\Dll\vc100.pdb'; linking object as if no debug info
+         AODV.vcxproj -> C:\Users\KANAK\Desktop\Secure_AODV\Simulation\AODV\..\Dll\libAODV.dll
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\Dll\libAODV.dll;#2" /manifest Debug\libAODV.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\AODV.unsuccessfulbuild".
+         Touching "Debug\AODV.lastbuildstate".
+     1>Done Building Project "C:\Users\KANAK\Desktop\Secure_AODV\Simulation\AODV\AODV.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.99
